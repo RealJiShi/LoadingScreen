@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Fonts/SlateFontInfo.h"
-#include "SScaleBox.h"
+#include "Runtime/Slate/Public/Widgets/Layout/SScaleBox.h"
 #include "MoviePlayer.h"
 #include "Engine/DeveloperSettings.h"
 

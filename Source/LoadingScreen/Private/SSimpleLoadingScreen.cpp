@@ -113,8 +113,8 @@ void SSimpleLoadingScreen::Construct(const FArguments& InArgs, const FLoadingScr
 					.VAlign(VAlign_Center)
 					.AutoWidth()
 					[
-						SNew(SCircularThrobber)
-						.Radius(PointSizeToSlateUnits(LoadingFont.Size) / 2.0f)
+						SNew(SThrobber)
+						.NumPieces(5)
 					]
 
 					+ SHorizontalBox::Slot()

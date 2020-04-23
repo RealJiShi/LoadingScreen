@@ -1,8 +1,7 @@
 // Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
-#include "ModuleManager.h"
+#include "Runtime/Core/Public/Modules/ModuleManager.h"
 
 /**
  * The public interface to this module
